@@ -1,14 +1,7 @@
-a = 5
-b = 6
-c = 7
-at=5
-bt=6
-ct=7
+a, b, c= 5, 6, 7
 
-b = at
-c = bt
-a = ct
+a, b, c=c, a, b
 
-print(f"{a}")
-print(f"{b}")
-print(f"{c}")
+print(a)
+print(b)
+print(c)
