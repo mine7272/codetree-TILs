@@ -27,5 +27,5 @@ else :
             swi = 0
         i *=2
 
-res = res - (now - b)
+res = res - abs(now - b)
 print(res)
