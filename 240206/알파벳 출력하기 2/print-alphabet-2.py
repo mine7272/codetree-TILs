@@ -7,4 +7,6 @@ for i in range (0, n):
         else :
             print(chr(x),end = " ")
             x += 1
+            if x > ord('Z') :
+                x = ord('A')
     print("")
